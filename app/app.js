@@ -11,8 +11,12 @@ var game = angular.module('memory',['ngRoute'])
             })
 
             // route for the about page
-            .when('/select', {
-                templateUrl : 'templates/selector.html',
+            .when('/language', {
+                templateUrl : 'templates/language.html',
+                controller  : 'selectorController'
+            })
+            .when('/level', {
+                templateUrl : 'templates/levels.html',
                 controller  : 'selectorController'
             })
 

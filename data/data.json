@@ -1,0 +1,32 @@
+{
+    "images":[
+         {"id": "puppy", "src":"/images/puppy.jpg"},
+         {"id":"kitten", "src":"/images/kitten.jpg"},
+         {"id":"fish", "src":"/images/fish.jpg"},
+         {"id":"piggy", "src":"/images/pig.jpg"},
+         {"id":"punny", "src":"/images/ponny.jpg"},
+         {"id":"bird", "src":"/images/bird.png"},
+         {"id":"leon", "src":"/images/lion.jpg"},
+         {"id":"giraffe", "src":"/images/giraffe.jpg"}
+     ],
+    "sounds":[
+        {"id":"alligator_en", "src":"/audio/alligator_en.mp3"},
+        {"id":"alligator_es", "src":"/audio/alligator_es.mp3"},
+        {"id":"bird_en", "src":"/audio/bird_en.mp3"},
+        {"id":"bird_es", "src":"/audio/bird_es.mp3"},
+        {"id":"fish_en", "src":"/audio/fish_en.mp3"},
+        {"id":"fish_es", "src":"/audio/fish_es.mp3"},
+        {"id":"giraffe_en", "src":"/audio/giraffe_en.mp3"},
+        {"id":"giraffe_es", "src":"/audio/giraffe_es.mp3"},
+        {"id":"horse_en", "src":"/audio/horse_en.mp3"},
+        {"id":"horse_es", "src":"/audio/horse_es.mp3"},
+        {"id":"kitten_en", "src":"/audio/kitten_en.mp3"},
+        {"id":"kitten_es", "src":"/audio/kitten_es.mp3"},
+        {"id":"lion_en", "src":"/audio/lion_en.mp3"},
+        {"id":"lion_es", "src":"/audio/lion_es.mp3"},
+        {"id":"piggy_en", "src":"/audio/piggy_en.mp3"},
+        {"id":"piggy_es", "src":"/audio/piggy_es.mp3"},
+        {"id":"puppy_en", "src":"/audio/puppy_en.mp3"},
+        {"id":"puppy_es", "src":"/audio/puppy_es.mp3"}
+    ]
+}
