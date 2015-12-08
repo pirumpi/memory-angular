@@ -26,6 +26,43 @@ html, body{
     margin-right: auto;
     padding-top: 10%;
 }
+.selector{
+    height: 100%;
+    width: 100%;
+    background-image: url("/images/select_bg.jpg");
+    background-image: url("/images/select_bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.selector .container{
+    width: 540px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30%;
+}
+
+.selector .container section{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    border: 1px solid #000;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+    vertical-align: middle;
+    display: table;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 55px;
+    color: #444;
+    font-size: 31px;
+    font-weight: bolder;
+    text-shadow: 5px 1px 2px rgba(161, 129, 150, 1);
+    background-color: rgba(255, 255, 255, 0.81);
+}
 
 .dog { 
   background-image: url("http://www.pamperedpetz.net/wp-content/uploads/2015/09/Puppy1.jpg") !important; 

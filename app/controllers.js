@@ -1,11 +1,11 @@
-game.controller('loaderController', function($scope, data, assets, Game, $location){
+game.controller('loaderController', function($scope, data, assets, Game, $location, $timeout){
     $scope.progress = "0%";
     
     data.getData().then(function(manifest){
-         assets.queue.loadManifest(manifest.data.images);
+         assets.loadManifest(manifest.data.images);
          Game.setNames(manifest.data.images);
          angular.forEach(manifest.data.sounds,function(sound){
-             assets.queue.loadFile(sound);
+             assets.loadFile(sound);
          });
         
     });
@@ -13,7 +13,7 @@ game.controller('loaderController', function($scope, data, assets, Game, $locati
     $scope.$on('fileLoaded', function(){
        console.log('files loaded'); 
         createjs.Sound.play("giraffe_es");
-        setTimeout(function(){
+        $timeout(function(){
             $scope.$apply(function(){
                 $location.path('/language');
             });

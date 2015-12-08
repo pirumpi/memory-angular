@@ -8,10 +8,7 @@ game.factory('assets', function($rootScope){
     queue.on("progress", function(e){
         $rootScope.$broadcast('progress',e);
     }, this); 
-    return {
-        queue:queue,
-        createjs: createjs
-    };
+    return queue;
 });
 
 game.factory('Game', function(){
