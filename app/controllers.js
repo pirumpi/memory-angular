@@ -27,6 +27,6 @@ game.controller('loaderController', function($scope, data, assets, Game, $locati
     });
 });
 
-game.controller('selectorController', function($scope){
+game.controller('selectorController', function($scope, Game){
   
 });
