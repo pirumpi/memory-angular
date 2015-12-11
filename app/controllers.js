@@ -27,6 +27,15 @@ game.controller('loaderController', function($scope, data, assets, Game, $locati
     });
 });
 
-game.controller('selectorController', function($scope, Game){
-  
+game.controller('selectorController', function($scope, Game, $location){
+
+  $scope.setLevel = function(n){
+    Game.setLevel(n);
+    $location.path('/' + Game.getLevel());
+  };
+
+});
+
+game.controller('gameController', function($scope, Game, $location){
+    
 });

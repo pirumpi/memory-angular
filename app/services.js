@@ -26,6 +26,9 @@ game.factory('Game', function(){
         },
         setLevel: function(n){
             info.currentLevel = info.levels[n];
+        },
+        getLevel: function(){
+            return info.currentLevel;
         }
     };
 })
